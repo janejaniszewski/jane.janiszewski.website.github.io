@@ -1,0 +1,45 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #bbb;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* unique layout for about page */
+.about-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.about-layout div {
+  flex: 1;
+}
+
